@@ -2,3 +2,6 @@ $transition: all 0.2s ease-out;
 $colors: (white, black);
 $justify-content: (center center, between space-between, around space-around);
 $align-items: (center center, flex-start, flex-end);
+$displays: (block inline flex);
+$sizes: (5, 10, 15, 20);
+$breakpoints: (xs 360, sm 480, md 720);

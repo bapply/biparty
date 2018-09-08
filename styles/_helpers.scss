@@ -51,6 +51,38 @@
   }
 }
 
+@each $display in $displays {
+  .display-#{$display} {
+    display: $display;
+  }
+}
+
+@each $size in $sizes {
+  .p-#{$size} {
+    padding: #{$size}px;
+  }
+
+  .px-#{$size}, .pl-#{$size} {
+    padding-left: #{$size}px;
+  }
+
+  .px-#{$size}, .pr-#{$size} {
+    padding-right: #{$size}px;
+  }
+
+  .m-#{$size} {
+    margin: #{$size}px;
+  }
+
+  .mx-#{$size}, .ml-#{$size} {
+    margin-left: #{$size}px;
+  }
+
+  .mx-#{$size}, .mr-#{$size} {
+    margin-right: #{$size}px;
+  }
+}
+
 .clickable {
   cursor: pointer;
 }
