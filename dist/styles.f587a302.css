@@ -1,0 +1,48 @@
+.fullscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+  transition: all 0.2s ease-out; }
+  .fullscreen.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1); }
+
+.flex {
+  display: flex; }
+
+.justify-content-center {
+  justify-content: center; }
+
+.justify-content-between {
+  justify-content: space-between; }
+
+.justify-content-around {
+  justify-content: space-around; }
+
+.align-items-center {
+  align-items: center; }
+
+.col {
+  flex-direction: column; }
+
+.row {
+  flex-direction: row; }
+
+.bg-white {
+  background-color: white; }
+
+.text-white {
+  color: white; }
+
+.bg-black {
+  background-color: black; }
+
+.text-black {
+  color: black; }

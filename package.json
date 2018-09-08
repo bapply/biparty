@@ -1,0 +1,17 @@
+{
+  "name": "biparty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mahdi Pourismaiel <mpourismaiel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "parcel": "^1.9.7",
+    "prettier": "^1.14.2",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.0.3"
+  }
+}

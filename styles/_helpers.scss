@@ -1,0 +1,52 @@
+.fullscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+  transition: $transition;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+@each $label, $align in $justify-content {
+  .justify-content-#{$label} {
+    justify-content: $align;
+  }
+}
+
+@each $label, $align in $align-items {
+  .align-items-#{$label} {
+    align-items: $align;
+  }
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+@each $color in $colors {
+  .bg-#{$color} {
+    background-color: $color;
+  }
+
+  .text-#{$color} {
+    color: $color;
+  }
+}
