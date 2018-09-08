@@ -2524,6 +2524,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
+konva@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/konva/-/konva-2.3.0.tgz#d6ff0f85838f4fb5da34d148b79eeb6c6e14ed9c"
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
